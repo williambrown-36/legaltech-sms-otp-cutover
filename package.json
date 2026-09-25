@@ -1,0 +1,16 @@
+{
+  "name": "legaltech-sms-otp-cutover",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx scripts/demo.ts",
+    "test": "tsx test/legal_login.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "zod": "^3.23.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

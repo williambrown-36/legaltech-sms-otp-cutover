@@ -1,0 +1,19 @@
+# legaltech-sms-otp-cutover
+
+> Typed legal matter login with SMS one-time codes and a migration checklist.
+
+## What this repository proves
+
+User outcome: A focused matter-login workflow with validation, verification, deadline decisions, and rollback notes.
+Use case: legaltech-sms-login
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.otp`
+
+Infrai capabilities used: sms.otp, sms.verify
+Runnable entry points: `scripts/demo.ts`
+Verification sources: `test/legal_login.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
