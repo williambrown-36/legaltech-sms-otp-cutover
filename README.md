@@ -57,3 +57,7 @@ The happy path above is just the demo. For production you need the Legaltech SMS
 **Legaltech SMS OTP Cutover: SMS (required for real sending)**
 - **Legaltech SMS OTP Cutover:** Many carriers/regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Legaltech SMS OTP Cutover:** Sandbox/test numbers may work without it; production traffic will not.
+
+## Further reading
+
+- [Python SMS OTP Login Stack Explained — Beginner Recovery for Media Accounts](docs/python-sms-otp-login-stack-explained-beginner-rec-nz8pan.md)
